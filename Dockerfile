@@ -7,5 +7,6 @@ RUN apt-get update
 # RUN apt upgrade -y
 
 RUN apt-get install -y sudo
+# RUN apt install net-tools
 
 WORKDIR /
